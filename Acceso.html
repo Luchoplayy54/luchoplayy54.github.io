@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Mirrored from deugub.online/Panel/Usuarios/Acceso by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Oct 2023 15:14:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+    <title>Deugub / Acceso</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="Conejo">
+    <meta name="description" content="Deugub es un servidor de juego, está situado en la plataforma sa:mp (www.sa-mp.com). Enfocado a la interpretación.">
+    <meta name="keywords" content="Deugub, Deugub roleplay, Deugub rp, gta.deugub.com, samp, samp en español, juego de rol, gta online, SAMP, Roleplay, juegos, PC, extreme latin">
+
+    <meta property="og:title" content="Deugub - SA:MP" />
+    <meta property="og:description" content="Deugub es un servidor de juego, está situado en la plataforma sa:mp (www.sa-mp.com). Enfocado a la interpretación." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="../../index.html" />
+    <meta property="og:image" content="../../../www.deugub.online/img/portada-fb.png" />
+
+    <link href="../../css/site.css" rel="stylesheet">
+    <link href="../../css/deugub-web.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../img/favicon.png" />
+    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="../../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
+
+    <style>
+        #layout {
+            display: flex;
+        }
+
+            #layout #layout_content {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                min-width: 0;
+                flex-grow: 1;
+                min-height: calc(100vh - 170px);
+            }
+
+        .validation-summary-errors ul {
+            list-style: none;
+            margin-left: -40px
+        }
+
+        .social:hover {
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+
+        .social {
+            -webkit-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            -o-transform: scale(0.8);
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <div id="content">
+
+                
+<nav class="navbar navbar-expand navbar-light bg-white text-black-50 topbar static-top shadow">
+
+    <div class="container-fluid">
+
+
+        <ul class="navbar-nav me-auto">
+
+            <li class="nav-item ">
+                <a class="nav-link text-secondary" href="../../index.html">
+                    Portal
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link text-secondary" href="https://foro.deugub.com/">
+                    Foro
+                </a>
+            </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item no-arrow">
+                    <a class="nav-link" href="Acceso.html">
+                        <span class="mr-2 d-lg-inline text-gray-900">Acceder</span>
+                    </a>
+                </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+                <div id="layout">
+
+                    <div class="container-fluid mt-4" id="layout_content">
+
+                        
+
+<div class="container mt-5">
+    <div class="row justify-content-center my-5">
+        <div class="col-xl-10 col-lg-12 col-md-9 my-5">
+            <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center" style="background-image:linear-gradient(to top, rgba(253,29,29,0.75) 0%, rgba(252,133,69,0.5) 100%), url('../../img/wallpapers/1.png');background-position:center;background-size:cover">
+                            <img src="../../img/logo-w.png" class="img-fluid text-center" style="max-height:200px;" draggable="false" />
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="p-5">
+                                <div class="text-center">
+                                    <h1 class="h4 text-gray-900 mb-4">Inicio de sesión</h1>
+                                </div>
+<form action="https://deugub.online/Panel/Usuarios/Acceso" method="post">                                    <div class="form-group">
+                                        <input class="form-control form-control-user text-box single-line" data-val="true" data-val-required="&#xA1;El nombre de usuario es requerido para iniciar sesi&#xF3;n! &#x1F620;" id="USER_NAME" name="USER_NAME" placeholder="Nombre de usuario" type="text" value="" />
+                                        <span class="text-danger field-validation-valid" data-valmsg-for="USER_NAME" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-user text-box single-line password" data-val="true" data-val-required="&#xA1;&#xBF;D&#xF3;nde est&#xE1; la contrase&#xF1;a?!" id="PASSWORD" name="PASSWORD" placeholder="Contrase&#xF1;a" type="password" />
+                                        <span class="text-danger field-validation-valid" data-valmsg-for="PASSWORD" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-user btn-block">
+                                        Acceder
+                                    </button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8IAa6wipF0lPhFFqtgWTr1k_SCLOc9gajW0o9E397EyE6Xy3g5e2-xnX1rSG6A0amwMUjKvps7sEYtgEl9sL6NWntZ6guT0dTR8bdrvPJl2lJnGOM6oZqGuIYzo_M_YqQzi6_dji8CINTwKtt0QVR-4" /></form>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer class="sticky-footer bg-white mt-4" style="max-height:75px;">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <span><b>Deugub &copy; 2023</b></span>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="logoutModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="logoutModalLabel">¿Ya te vas?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Si estás seguro de que quieres abandonar tu sesión, selecciona <b>desconectarse</b>.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                <a class="btn btn-danger" href="Acceso.html">Desconectarse</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../../vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="../../js/deugub-web.min.js"></script>
+    
+
+</body>
+
+<!-- Mirrored from deugub.online/Panel/Usuarios/Acceso by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Oct 2023 15:14:37 GMT -->
+</html>
